@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nagendrappa1/jenkins:latest   # or use ${IMAGE_TAG} if versioned
+        image: jcreddyk/jenkins:latest   # or use ${IMAGE_TAG} if versioned
         ports:
         - containerPort: 80
